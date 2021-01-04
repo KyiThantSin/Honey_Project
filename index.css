@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Volkhov:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto Mono', monospace;
+scroll-behavior: smooth;
+
+}
+.cart:hover{
+    background-color:#3377FF;
+}
+h1,h2,h3{
+    font-family: 'Staatliches', cursive;
+font-family: 'Volkhov', serif;
+}
+.header{
+    background-color: #ffcc00;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+}
+.part1_img{
+    height: 300px;
+}
+.slogan{
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+.part1_left{
+    background-color:#FFFF99;
+    height: 50%;
+    padding: 30px;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+button>a:hover{
+    color: black;
+}
+.part1_img0{
+    height: 200px;
+}
+/*products*/
+a{
+    text-decoration: none;
+    color:black;
+}
+.more_product{
+    list-style:disc;
+}
+.more_product>li{
+    padding: 5px;
+    font-size: 20px;
+}
+.shopping:hover{
+    width: 150px;
+    height: 50px;
+}
+.slogan0{
+    animation-delay: 1s;
+}
+.slogan1{
+    animation-delay: 2s;
+}
+.slogan2{
+    animation-delay: 3s;
+}
+.co{
+    border: grey solid 1px;
+    border-radius: 4%;
+    text-align: center;
+    padding: 20px;
+    background-color:#E0DEDC ;
+    width: 300px;
+}
+.filling{
+    color: #FC8403;
+    position: relative;
+    padding: 0;
+}
+.filling::before{
+    content: "Waikiki's Honey";
+    color:gainsboro;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    animation: liquid 5s infinite;
+}
+.header{
+    position: fixed;
+    z-index: 999;
+}
+.no1{
+    animation-delay:2s ;
+}
+.no2{
+    animation-delay: 3s;
+}
+.font{
+    font-size: 29px;
+    font-family: 'Caveat', cursive;
+    
+    
+}
+form{
+    background-color:#F4F6F6 ;
+    
+}
+.form-control{
+    background-color:#FEF5E7;
+}
+@keyframes liquid{
+    0%{
+        height: 25%;
+    }
+    25%{
+        height: 50%;
+    }
+    50%{
+        height: 65%;
+    }
+    75%{
+        height: 40%;
+    }
+    100%{
+        height: 25%;
+    }
+}
+#add{
+    background-color: grey;
+}
+#add:hover{
+    background-color:orange;
+}
+@media only screen and (max-width:500px){
+    .part1_img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .big0{
+        width: 150%;
+        height: 50%;
+    }
+}
